@@ -3,7 +3,7 @@
 usage() { echo "Usage: $0 [-t <tag>] [-i <image>]" 1>&2; exit 1; }
 
 # Defaults
-DOCKER_IMAGE_NAME="carla-ros-bridge"
+DOCKER_IMAGE_NAME="carla-docker-ll7"
 TAG="0.9.10.1"
 
 while getopts ":ht:i:" opt; do
