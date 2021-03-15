@@ -1,0 +1,4 @@
+Für das Hinzufügen einer Schriftart:
+    1. Schriftart aus dem Verzeichnis usr/share/fonts/truetype/ubuntu in den Ordner des Dockers kopieren
+    2. Mit dem Befehl ADD die Schriftart dem Image hinzufügen
+    3. fontconfig installieren
