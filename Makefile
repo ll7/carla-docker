@@ -10,5 +10,5 @@ carla:
 ros-bridge:
 	@git clone --recurse-submodules https://github.com/carla-simulator/ros-bridge.git
 	@cd ros-bridge/; git checkout --recurse-submodules 0.9.10.1 -b 0.9.10.1; rm -r docker
-	@mv docker/ ros-bridge/
+	@cp docker/ ros-bridge/
 	@cd ros-bridge/docker/; ./build.sh
